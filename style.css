@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #908e8e;
+    overflow: hidden;
+    /* sticky header */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /* border-radius: 10px; */
+}
+
+li {
+    display: inline;
+    float: right;
+    padding-top: 5px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: None;
+}
+
+#profile-pic {
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#featured-photo {
+    width: 720px;
+}
+
+#description {
+    margin-left: 40px;
+    margin-right: 20px;
+    font-size: 32px;
+    line-height: 50px;
+}
+
+.flex-item-2 {
+    display: flex;
+    background-color: #004c93;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    font-size: 32px;
+    flex-direction: row;
+    padding-top: 25px;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+
+#project2, #project3, #project4 {
+    width: 400px;
+}
+
+#prev-proj {
+    background-color: #004c93;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 30px;
+}
