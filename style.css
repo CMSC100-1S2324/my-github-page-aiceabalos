@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #908e8e;
+    overflow: hidden;
+    /* sticky header */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    display: inline;
+    float: right;
+    padding-top: 5px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: None;
+}
+
+#profile-pic {
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-item-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#featured-photo {
+    width: 720px;
+}
+
+.feat-desc {
+    margin-left: 40px;
+    margin-right: 20px;
+    line-height: 30px;
+    margin-top: 60px;
+    text-align: justify;
+}
+
+#name {
+    font-size: 28px;
+    color: #666666;
+    font-weight: bold;
+}
+
+#description {
+    font-size: 24px;
+    color: black;
+}
+
+.flex-item-2 {
+    display: flex;
+    background-color: #004c93;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    font-size: 32px;
+    flex-direction: row;
+    padding-top: 25px;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+
+#project2, #project3, #project4 {
+    width: 450px;
+    height: 300px;
+}
+
+#prev-proj {
+    background-color: #004c93;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 30px;
+}
+
+.flex-skills {
+    align-items: center;
+    align-content: center;
+}
+
+#flex-skills {
+    padding-right: 50px;
+}
+
+#flex-auto {
+    margin-left: 50px;
+}
+
+#footer {
+    display: flex;
+    background-color: #222222;
+    color: white;
+    align-content: center;
+}
+
+#footer-text {
+    text-align: start;
+}
+
+#btt {
+    margin-top: 35px;
+    margin-left: 250px;
+}
